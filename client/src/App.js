@@ -1,5 +1,6 @@
 import LongPulling from './LongPolling';
 import EventSourcing from './EventSourcing';
+import WebSock from './WebSock';
 
 import './App.css';
 
@@ -7,7 +8,8 @@ function App() {
   return (
     <div>
       {/* <LongPulling /> */}
-      <EventSourcing />
+      {/* <EventSourcing /> */}
+      <WebSock />
     </div>
   );
 }
